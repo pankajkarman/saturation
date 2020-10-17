@@ -24,9 +24,4 @@ This repository contains the analysis codes for the paper [Emergence of ozone re
 
 5. Calculate the daily fraction of data points for which ozone concentration is less than the loss saturation criteria (0.1 ppmv). 
 
-## Notebooks should be run in the following order:
-
-1. [Polar vortex edge estimation using Nash Criteria]()
-2. [Ozonesonde data processing]()
-
 
