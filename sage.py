@@ -1,7 +1,8 @@
+# %%
 
 # coding: utf-8
 
-# In[1]:
+# %%
 
 
 import warnings
@@ -17,7 +18,7 @@ from pysagereader.sage_iii_reader import SAGEIIILoaderV400
 from pysagereader.sage_ii_reader import SAGEIILoaderV700
 
 
-# In[2]:
+# %%
 
 
 import matplotlib as mpl
@@ -36,7 +37,7 @@ mpl.rcParams['xtick.direction'] = 'in'
 mpl.rcParams['ytick.direction'] = 'in'
 
 
-# In[3]:
+# %%
 
 
 data_folder='/home/pankaj/phd/saturation/data/raw/sage/sage2'
@@ -45,7 +46,7 @@ gama=2.0/7.0
 k=1.38E-19
 
 
-# In[4]:
+# %%
 
 
 #select month
@@ -54,7 +55,7 @@ months=['January','February','March','April','May','June','July','August','Septe
 mon_name=months[mon_no-1]
 
 
-# In[5]:
+# %%
 
 
 #load the data
@@ -89,7 +90,7 @@ date=Time(mjds, format='mjd')
 date=pd.to_datetime(date.isot)
 
 
-# In[6]:
+# %%
 
 
 fig, axes = facets(3, 3, width=20.0, aspect=0.5, internal_pad=0.0, top_pad=0.1, bottom_pad=0.7, left_pad=1.1, right_pad=0.1)
